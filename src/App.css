@@ -18,6 +18,20 @@ body {
     font-family: "Calibri", sans-serif;
 }
 
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
 .App {
     display: flex;
     align-items: center;
