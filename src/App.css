@@ -77,3 +77,13 @@ button:hover {
 .operators button:not(:last-child) {
     border-right: 1px solid var(--darker-primary);
 }
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digits button {
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+}
