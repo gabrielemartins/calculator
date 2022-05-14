@@ -1,0 +1,26 @@
+:root {
+    --primary: #d81e5b;
+    --darker-primary: #d11b57;
+    --dark: #131a26;
+    --lighter-dark: #192130;
+    --darker-dark: #0d121b;
+    --light: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+    font-family: "Calibri", sans-serif;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
