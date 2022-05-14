@@ -38,3 +38,12 @@ button:hover {
     justify-content: center;
     min-height: 100vh;
 }
+
+.calculator {
+    background-color: var(--lighter-dark);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    font-weight: 600;
+}
