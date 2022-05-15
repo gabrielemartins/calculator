@@ -2,6 +2,9 @@
 
 This project is a calculator that does all the basic operations
 
+![A dark page with a calculator and a dark-colored display that shows the calculation "thirty two dot five plus sixty nine" in white. On the calculation's left, between parenthesis, the number "one hundred and one dot five" in low opacity; below, a box with math basic operations symbols, from left to right: plus, minus, multiply, divide, del, and ce; the last two in uppercase, they represent delete and clear buttons, and those texts are in white with their backgrounds in pink; and below, a box with numbers 0 to 9 plus a dot and equal button.
+All of the numbers and symbols are black, while the buttons are white.](https://i.ibb.co/4MnqnKj/Screenshot-2022-05-14-at-00-21-30-React-App.png "Calculator")
+
 ## Installation
 
 I am going to show how to install using npm, so please make sure you have it installed
