@@ -22,15 +22,27 @@ The calculator is ready to do all the basic operations such as add, subtract, di
 
 ### Add
 
+![](https://i.ibb.co/wJN5jcw/add.gif)
+
 ### Subtract
+
+![](https://i.ibb.co/JBqfDXH/subtract.gif)
 
 ### Multiply
 
+![](https://i.ibb.co/dWXGvhk/multiply.gif)
+
 ### Divide
+
+![](https://i.ibb.co/1ZM3D2F/divide.gif)
 
 ### Delete
 
+![](https://i.ibb.co/Z6WGw1z/delete.gif)
+
 ### Clear
+
+![](https://i.ibb.co/Tvv3qfz/clear.gif)
 
 ## Contributing
 
