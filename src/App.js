@@ -21,6 +21,10 @@ function App() {
             setResult(eval(calc + value).toString());
         }
     };
+
+    const calculate = () => {
+        setCalc(eval(calc).toString());
+    };
     return (
         <div className="App">
             <div className="calculator">
@@ -48,7 +52,7 @@ function App() {
                     <button onClick={() => updateCalc("9")}>9 </button>
                     <button onClick={() => updateCalc("0")}>0</button>
                     <button onClick={() => updateCalc(".")}>.</button>
-                    <button>=</button>
+                    <button onClick={calculate}>=</button>
                 </div>
             </div>
         </div>
