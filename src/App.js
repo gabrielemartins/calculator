@@ -25,6 +25,24 @@ function App() {
     const calculate = () => {
         setCalc(eval(calc).toString());
     };
+
+    const deleteLast = async () => {
+        if (calc === "") {
+            return;
+        }
+        const value = calc.slice(0, -1);
+        setCalc(value);
+        if (value == "") {
+            setResult("");
+        }
+
+        if (operators.includes(value.slice(-1))) {
+            setResult(eval(value).toString().slice(0, -1));
+        } else {
+            setResult(eval(value).toString());
+        }
+    };
+
     return (
         <div className="App">
             <div className="calculator">
@@ -37,7 +55,7 @@ function App() {
                     <button onClick={() => updateCalc("-")}>-</button>
                     <button onClick={() => updateCalc("*")}>x</button>
                     <button onClick={() => updateCalc("/")}>/</button>
-                    <button>DEL</button>
+                    <button onClick={deleteLast}>DEL</button>
                     <button>CE</button>
                 </div>
                 <div className="digits">
